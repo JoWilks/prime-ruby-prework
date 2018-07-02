@@ -6,7 +6,7 @@ def prime?(integer)
     true
   elsif integer % 2 == 0
     false
-  elsif div_by_these.each {|element| integer % element === 0}  
+  elsif div_by_these.each {|element| integer % element == 0}  
     false
   end
 end
