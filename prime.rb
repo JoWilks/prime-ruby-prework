@@ -1,14 +1,14 @@
 def prime?(int)
-
-
+  
+  i = 5
+  
   if integer<2 
     false
-  elsif not_these_no.include?(integer)
+  elsif <=3
     true
-  elsif integer % 2 == 0
+  elsif int % 2 == 0 || int mod 3 == 0
     false
-  elsif integer % 3 == 0 || integer % 5 == 0 || integer % 7 == 0 || integer % 11 == 0 || integer % 41 == 0 || integer % 43 == 0
-    false
+  while i*i<
   else
     true
     end
