@@ -1,9 +1,15 @@
-def prime?(int)
-  
-  if int<2 
+def prime?(integer)
+not_these_no = [2,3,5,7,11]
+
+  if integer<2 
     false
-  elsif int<=3
+  elsif not_these_no.include?(integer)
     true
-  elsif int % 2 == 0 || int % 3 == 0
+  elsif integer % 2 == 0
     false
+  elsif integer % 3 == 0 || integer % 5 == 0 || integer % 7 == 0 || integer % 11 == 0 || integer % 41 == 0 || integer % 43 == 0
+    false
+  else
+    true
+    end
 end
