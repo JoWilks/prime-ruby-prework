@@ -1,7 +1,7 @@
 def prime?(integer)
 not_these_no = [2,3,5,7,11]
 
-  if integer<1 
+  if integer<2 
     false
   elsif not_these_no.include?(integer)
     true
