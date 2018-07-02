@@ -1,6 +1,6 @@
 def prime?(integer)
-  not_these_no = [1,2,3,5,7]
-  div_by_these = [3,5,7]
+  not_these_no = [1,2,3,5,7,11,13]
+  div_by_these = [3,5,7,11,13]
 
   if not_these_no.include?(integer)
     true
