@@ -1,5 +1,5 @@
 def prime?(integer)
-not_these_no = [1,2,3,5,7,11]
+not_these_no = [2,3,5,7,11]
 
   if integer<1 
     false
