@@ -12,6 +12,6 @@ def prime?(int)
     if int % i == 0 || n % (i+2) == 0
       return false
     end
-    i
+    i += 
   end
 end
