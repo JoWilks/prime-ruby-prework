@@ -7,8 +7,7 @@ not_these_no = [2,3,5,7,11]
     true
   elsif integer % 2 == 0
     false
-  elsif integer % 3 == 0 || integer % 5 == 0 || integer % 7 == 0 || integer % 11 == 0 || integer % 41 == 0 || integer % 43 == 0
-    false
+  elsif (2..Math.sqrt(int)).none? {|i| (int % i).zero?}
   else
     true
     end
