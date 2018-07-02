@@ -1,7 +1,5 @@
 def prime?(int)
   
-  i = 5
-  
   if int<2 
     false
   elsif int<=3
