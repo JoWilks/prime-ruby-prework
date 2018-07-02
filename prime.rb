@@ -1,4 +1,4 @@
-def is_prime?(num)
+def prime?(num)
   if num <= 1
      nil
   elsif (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
