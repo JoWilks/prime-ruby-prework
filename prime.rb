@@ -2,7 +2,7 @@ def prime?(int)
   
   i = 5
   
-  if integer<2 
+  if int<2 
     false
   elsif int<=3
     true
