@@ -1,9 +1,9 @@
 def is_prime?(num)
   if num <= 1
-    return nil
+     nil
   elsif (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
-    return true
+     true
   else
-    return false
+     false
   end
 end
