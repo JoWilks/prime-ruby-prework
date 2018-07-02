@@ -1,4 +1,4 @@
-def prime?(integer)
+def prime?(int)
 
 
   if integer<2 
