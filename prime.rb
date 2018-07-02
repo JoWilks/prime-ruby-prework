@@ -1,14 +1,13 @@
 def prime?(integer)
-  not_these_no = [1,2,3,5,7,11,13]
-  div_by_these = [3,5,7,11,13]
+not_these_no = [1,2,3,5,7,11]
 
   if not_these_no.include?(integer)
     true
   elsif integer % 2 == 0
     false
-  elsif div_by_these.each {|element| integer % element == 0}  
+  elsif integer % 3 == 0 || integer % 5 == 0 || integer % 7 == 0 || integer % 11 == 0
     false
   else
     true
-  end
+    end
 end
