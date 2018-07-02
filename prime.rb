@@ -8,5 +8,7 @@ def prime?(integer)
     false
   elsif div_by_these.each {|element| integer % element == 0}  
     false
+  else
+    true
   end
 end
